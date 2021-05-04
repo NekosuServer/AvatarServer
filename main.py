@@ -1,7 +1,7 @@
 import os, random
 from quart import Quart, send_file
 
-app, defaultAvatars = Quart(__name__), ["-1", "-2", "-3", "-4", "-5"]
+app, defaultAvatars = Quart(__name__), ["-1", "-2", "-3", "-4", "-5", "-6", "-7"]
 
 @app.route("/")
 async def homepage():
